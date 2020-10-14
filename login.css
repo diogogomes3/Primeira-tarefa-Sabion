@@ -1,0 +1,10 @@
+.text-boxies {
+    width: 50%;
+    border-radius: 5px;
+    background-color: #c4c4c4;
+    margin: auto;
+}
+.text-boxies h1 {
+    padding-top: 20px;
+    text-align: center;
+}
