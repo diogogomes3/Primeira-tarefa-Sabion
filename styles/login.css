@@ -1,10 +1,15 @@
 .text-boxies {
-    width: 50%;
+    width: 50%; height: 50%;
     border-radius: 5px;
     background-color: #c4c4c4;
     margin: auto;
+    padding-bottom: 20px;
 }
 .text-boxies h1 {
     padding-top: 20px;
     text-align: center;
+}
+#username, #senha {
+    padding-left: 215px;  padding-bottom: 20px;
+    display: inline-block;
 }
