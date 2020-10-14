@@ -1,5 +1,5 @@
 .text-boxies {
-    width: 50%; height: 50%;
+    width: 50%; 
     border-radius: 5px;
     background-color: #c4c4c4;
     margin: auto;
@@ -9,7 +9,22 @@
     padding-top: 20px;
     text-align: center;
 }
+.text-boxies input {
+    padding: 5px;
+    float: right;
+    margin-right: 190px ;
+}
 #username, #senha {
-    padding-left: 215px;  padding-bottom: 20px;
+    padding-left: 190px;  padding-bottom: 20px;
     display: inline-block;
+    font-size: 20px;
+}
+.forgot, .sign-up {
+    text-decoration: underline;
+}
+.forgot, .no-account {
+    text-align: center;
+}
+.forgot :hover, .no-account :hover {
+    color: white;
 }
