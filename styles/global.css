@@ -27,23 +27,17 @@ a:link, a:visited {
     border-radius: 5px;
 
 }
-.upside a {
+.upside  li a {
     display: inline-block;
     padding: 10px 20px;
     border-radius: 5px;
 }
 .upside li :hover {
-    background-color: black;
     color: white;
     border-radius: 5px;
 }
-#login {
-    margin-left: 535px;
-    background-color: transparent;
-    font-weight: normal;
-}
-#login:hover {
-    background-color: #c4c4c4;
+.upside p {
+    display: inline-block;
 }
 .button-black {
     color: white;
@@ -81,8 +75,13 @@ a:link, a:visited {
     color: white;
     border-radius: 5px;
 }
-#login:hover {
-    background-color: #c4c4c4;
+.login {
+    margin-left: 585px;
+}
+#login {
+    text-decoration: underline;
+}
+#login :hover {
     color: white;
 }
 .dns {
